@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.profile{
+padding: 40px 50px;
+width:100%;
+background: #f1f1f1;
+border-bottom:1px solid #9a9a9a;
+margin-top: 100px;
+}
+.profile .pimage img{
+    width:40%
+}
+.profile .pimage h2,.profile .pimage h4{
+    margin:0px 20px
+}
+.profile .pimage h6{
+    margin:40px 20px -20px 10px;
+    color: #9a9a9a;
+
+}
+.profile .pimage p{
+    margin:0px 20px;
+    color:#9a9a9a;
+    font-size: 12px;
+}
+.profile .pimage .icon{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+.profile .pimage .icon li{
+    margin-left:20px;
+    list-style: none;
+    padding: 10px 10px;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.profile .pimage .icon li:hover{
+    background:#0989ff;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* / */
+
+.footer .container .about .detail .icon{
+    margin-top: 20px;
+    display:flex;
+}
+.footer .container .about .detail .icon li{
+    margin-left:20px;
+    list-style: none;
+    padding: 10px 10px;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.footer .container .about .detail .icon li:hover{
+    background:#0989ff;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
